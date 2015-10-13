@@ -10,8 +10,9 @@ Router.map(function() {
   this.route('thermostat');
   this.route('garageDoor');
   this.route('cameras');
-  this.route('light-switch');
-  this.route('light-scene');
+  this.route('ltswitches');
+  this.route('ltscenes');
+  this.route('garagedoor');
 });
 
 export default Router;

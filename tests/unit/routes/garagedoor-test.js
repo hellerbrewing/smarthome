@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:garage-door', 'Unit | Route | garage door', {
+moduleFor('route:garagedoor', 'Unit | Route | garagedoor', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });

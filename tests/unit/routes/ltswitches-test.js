@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:light-scene', 'Unit | Route | light scene', {
+moduleFor('route:ltswitches', 'Unit | Route | ltswitches', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });
