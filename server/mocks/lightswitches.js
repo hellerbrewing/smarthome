@@ -4,10 +4,27 @@ module.exports = function(app) {
 
   lightswitchesRouter.get('/', function(req, res) {
     res.send({
-      'lightswitches': [{
+      'lightswitches': [
+      {
         id: 1,
-        name: 'test switch',
-        on: true      }]
+        name: 'Driveway',
+        on: true,
+      },
+      {
+        id: 2,
+        name: 'Entry',
+        on: true,
+      },
+      {
+        id: 3,
+        name: 'Theater-Main',
+        on: true,
+      },
+      {
+        id: 4,
+        name: 'Theater-Dimmer',
+        on: true,
+      }]
     });
   });
 

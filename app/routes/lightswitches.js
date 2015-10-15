@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
 	model: function(){
-		return this.store.find('lightswitch')
+		this.store.findAll('lightswitch');
 	},
 	setupController: function(controller, model){
 		controller.set('lightswitches', model);

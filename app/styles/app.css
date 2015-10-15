@@ -1,0 +1,8 @@
+table, td, th {
+}
+
+td {
+	height: 20px;
+	padding: 15px;
+	vertical-align: middle
+}

@@ -45,7 +45,7 @@ module.exports = function(environment) {
   ENV['ember-cli-toggle'] = {
     includedThemes: ['light', 'default', 'flip', 'ios'],
     excludedThemes: [''],
-    defaultShowLabels: true, // defaults to false 
+    defaultShowLabels: false, // defaults to false 
     defaultTheme: 'light',   // defaults to 'default' 
     defaultSize: 'large',    // defaults to 'medium' 
     defaultOff: 'False',     // defaults to 'Off' 
