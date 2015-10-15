@@ -13,6 +13,7 @@ Router.map(function() {
   this.route('ltswitches');
   this.route('ltscenes');
   this.route('garagedoor');
+  this.route('auth');
 });
 
 export default Router;
