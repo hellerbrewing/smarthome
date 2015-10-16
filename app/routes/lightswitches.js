@@ -6,6 +6,6 @@ export default Ember.Route.extend({
 	},
 	setupController: function(controller, model){
 		controller.set('lightswitches', model);
-		console.log('I am in the setup controller')	
+		console.log('I am in the setup controller');
 	}
 });

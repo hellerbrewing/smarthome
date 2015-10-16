@@ -1,2 +1,9 @@
-{{light-bar}}
-I am in ltscene.
+{{light-bar}}<hr>
+<table cellpadding="100">
+	{{#each lightscene in lightscenes}}
+		<tr valign="top">
+			<td>{{lightscene.name}}</td>
+			<td>{{x-toggle theme='flip' toggle=switch.on}}</td>
+		</tr>
+	{{/each}}
+</table>
