@@ -1,9 +1,6 @@
 {{light-bar}}<hr>
 <table cellpadding="100">
 	{{#each lightswitch in lightswitches}}
-		<tr valign="top">
-			<td>{{lightswitch.name}}</td>
-			<td>{{x-toggle toggle=switch.on}}</td>
-		</tr>
+		{{switch-instance lightswitch=lightswitch}}
 	{{/each}}
 </table>

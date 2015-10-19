@@ -43,7 +43,7 @@ module.exports = function(environment) {
 
   }
   ENV['ember-cli-toggle'] = {
-    includedThemes: ['light', 'default', 'flip', 'ios'],
+    includedThemes: ['light', 'default', 'flip', 'ios', 'skewed'],
     excludedThemes: [''],
     defaultShowLabels: false, // defaults to false 
     defaultTheme: 'light',   // defaults to 'default' 
