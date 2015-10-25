@@ -9,13 +9,11 @@ module.exports = function(app) {
         id: 1,
         name: "Welcome Home",
         on: true,
-        'lightswitches': [1, 2]
       },
       {
         id: 2,
         name: "Watch Movie",
         on: true,
-        'lightswitches': [3, 4]
       }],
     });
   });

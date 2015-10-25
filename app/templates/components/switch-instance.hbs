@@ -1,5 +1,9 @@
 <tr valign="top">
 	<td></td>
 	<td>{{lightswitch.name}}</td>
+	{{#if lightswitch.isDimmer}}
+	<td>{{ui-slider value=lightswitch.level min=0 max=100 action='pushLevel'}}</td>
+	{{else}}
 	<td>{{x-toggle value=lightswitch.on}}</td>
+	{{/if}}
 </tr>

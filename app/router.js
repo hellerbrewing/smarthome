@@ -7,12 +7,12 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('lighting');
-  this.route('thermostat');
   this.route('cameras');
   this.route('ltswitches');
   this.route('ltscenes');
   this.route('auth');
   this.route('gdopeners');
+  this.route('thermostats');
 });
 
 export default Router;

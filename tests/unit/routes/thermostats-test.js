@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:thermostat', 'Unit | Route | thermostat', {
+moduleFor('route:thermostats', 'Unit | Route | thermostats', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });

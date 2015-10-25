@@ -9,7 +9,7 @@ export default Ember.Controller.extend({
 		login: function(){
 			//do stuff to authenticate here
 			this.set('loggedIn', true);
-			this.transitionTo('home');
+			this.transitionTo('lighting');
 		}
 	}
 });

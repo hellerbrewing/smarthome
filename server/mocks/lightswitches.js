@@ -9,21 +9,25 @@ module.exports = function(app) {
         id: 1,
         name: 'Driveway',
         on: true,
+        level: null,
       },
       {
         id: 2,
         name: 'Entry',
         on: true,
+        level: null,
       },
       {
         id: 3,
         name: 'Theater-Main',
         on: true,
+        level: null,
       },
       {
         id: 4,
         name: 'Theater-Dimmer',
         on: true,
+        level: 0,
       }]
     });
   });
